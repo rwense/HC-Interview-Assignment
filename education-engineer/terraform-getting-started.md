@@ -8,11 +8,12 @@
   - [Destroy Infrastructue](#destroy-infrastructue)
   - [Next Steps](#next-steps)
 
-Terraform is the most popular langauge for defining and provisioning infrastructure as code (IaC). In this guide you will learn how to set up Terraform, provision a Docker container, and how to destroy it.
+Terraform is the most popular langauge for defining and provisioning infrastructure as code (IaC). In this guide you will learn how to set up Terraform in a Windows environment, provision a Docker container, and how to destroy it.
 
 ## Prerequisites
 1. Terraform 1.1.9 (or current)
-2. 
+2. Windows 7/10
+3. 
 
 ## Installation
 Visit [Terraform.io](https://www.terraform.io/downloads.html) to download the compressed binary package for your current machine/platform.
