@@ -1,4 +1,12 @@
 # Getting Started with Terraform
+- [Getting Started with Terraform](#getting-started-with-terraform)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Create Directory/Configuration File](#create-directoryconfiguration-file)
+  - [Initialize Terraform](#initialize-terraform)
+  - [Provision Resource](#provision-resource)
+  - [Destroy Infrastructue](#destroy-infrastructue)
+  - [Next Steps](#next-steps)
 
 Terraform is the most popular langauge for defining and provisioning infrastructure as code (IaC). In this guide you will learn how to set up Terraform, provision a Docker container, and how to destroy it.
 
