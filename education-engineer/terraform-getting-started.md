@@ -10,16 +10,14 @@ Terraform is the most popular langauge for defining and provisioning infrastruct
 Visit [Terraform.io](https://www.terraform.io/downloads.html) to download the compressed binary package for your current machine/platform.
 
 ## Create Directory/Configuration File
-With Terraform installed, let's dive right into it and start creating some infrastructure.
-
-Most guys find it easiest to create a new directory on there local machine and create Terraform configuration code inside it.
+Next, we suggest creating a new directory on your local machine with the `mkdir` command.
 
 ```shell
 $ mkdir terraform-demo
 $ cd terraform-demo
 ```
 
-Next, create a file for your Terraform configuration code.
+In the new directory, create a file for your Terraform configuration code to reside in using the `touch` command.
 
 ```shell
 $ touch main.tf
@@ -59,7 +57,7 @@ $ terraform init
 ```
 
 ## Provision Resource
-You shoud check for any errors. If it ran successfully, provision the resource with the `apply` command.
+Check for any errors. If the `init` command ran successfully, provision the resource with the `apply` command.
 
 ```shell
 $ terraform apply
@@ -68,12 +66,15 @@ $ terraform apply
 The command will take up to a few minutes to run and will display a message indicating that the resource was created.
 
 ## Destroy Infrastructue
-Finally, destroy the infrastructure.
+Finally, destroy the infrastructure using the `destroy` command.
 
 ```shell
 $ terraform destroy
 ```
 
-Look for a message are the bottom of the output asking for confirmation. Type `yes` and hit ENTER. Terraform will destroy the resources it had created earlier.
+Look for a message are the bottom of the output asking for confirmation. Type `yes` and hit ENTER. Terraform will destroy the resources it created earlier.
 
 ## Next Steps
+Congratulations! You have learned how to install and configure Terraform along with provisioning and destroying infrastructure. You can now vastly shorten the time required to provision infrastructure.
+
+ These steps introduce the beginning of Terraform's value and will be built upon in further guides. Please continue to the next guide on how to modify your infrastructure.
