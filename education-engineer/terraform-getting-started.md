@@ -17,6 +17,7 @@ Terraform is the most popular langauge for defining and provisioning infrastruct
 ## Installation
 Visit [Terraform.io](https://www.terraform.io/downloads.html) to download the compressed binary package for your current machine/platform.
 
+
 ## Create Directory/Configuration File
 Next, we suggest creating a new directory on your local machine with the `mkdir` command.
 
