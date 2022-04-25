@@ -127,7 +127,7 @@ Visit https://docs.docker.com/desktop/windows/install/ and click the "Docker Des
 
 ![This is an image showing the Docker Download](../ResourcesFolder/DockerInstall.png)
 
-An install window should appear. Follow the prompts and ensure "**WSL 2**" is chosen in the Configuration page.
+An install window will appear. Follow the prompts and ensure "**WSL 2**" is chosen in the Configuration page.
 
 # Provisioning/Destroying Infrastructure
 
